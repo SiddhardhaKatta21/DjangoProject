@@ -6,4 +6,5 @@ router = DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'tasks', TaskViewSet)
 
+
 urlpatterns = router.urls
